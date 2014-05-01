@@ -130,7 +130,7 @@ def parse_cell_magic(line, cell):
         get_ipython().user_ns[output_var_name] = perf
 
 
-def run_algo(print_algo=True, **kwargs):
+def run_pipeline(print_algo=True, **kwargs):
     """Runs a full zipline pipeline given configuration keyword
     arguments.
 
